@@ -1,8 +1,9 @@
 import express, { type Application, type Request, type Response } from "express";
 import { AsyncLocalStorage } from "node:async_hooks";
 import {Pool, Result} from "pg";
+import config from "./config";
 const app : Application = express();
-const port = 5000;
+const port = config.port;
 
 
 // Middleware
@@ -15,7 +16,7 @@ app.use(express.urlencoded({extended : true}));
 // Connect to NEONDB
 
 const pool = new Pool({
-    connectionString : "postgresql://neondb_owner:npg_k1eSNmQUzW4C@ep-dawn-rice-apw0prz6-pooler.c-7.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require",
+    connectionString : config.connection_string,
 });
 
 
