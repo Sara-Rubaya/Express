@@ -1,0 +1,4 @@
+Method -> GET Time -> function now() { [native code] } URL -> /
+Method -> GET - Time -> function now() { [native code] } - URL -> /
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
