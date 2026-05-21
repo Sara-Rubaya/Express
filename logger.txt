@@ -156,3 +156,9 @@ Method -> POST - Time -> function now() { [native code] } - URL -> /api/auth/ref
 Method -> POST - Time -> function now() { [native code] } - URL -> /api/auth/refresh-token
 
 Method -> POST - Time -> function now() { [native code] } - URL -> /api/auth/refresh-token
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
