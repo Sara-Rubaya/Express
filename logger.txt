@@ -162,3 +162,7 @@ Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
 Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
 
 Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> POST - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> POST - Time -> function now() { [native code] } - URL -> /api/users
