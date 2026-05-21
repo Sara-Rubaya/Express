@@ -2,3 +2,33 @@ Method -> GET Time -> function now() { [native code] } URL -> /
 Method -> GET - Time -> function now() { [native code] } - URL -> /
 
 Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users/15
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> POST - Time -> function now() { [native code] } - URL -> /api/auth/login
+
+Method -> POST - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
+
+Method -> GET - Time -> function now() { [native code] } - URL -> /api/users
