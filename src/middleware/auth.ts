@@ -5,7 +5,8 @@ import { pool } from "../db";
 
 const auth = ()=>{
     return async (req : Request, res : Response, next : NextFunction)=>{
-    // console.log("this is protected route");
+   try {
+     // console.log("this is protected route");
     // console.log(req.headers.authorization);
     const token = req.headers.authorization;
 
@@ -45,7 +46,13 @@ const auth = ()=>{
         });
     }
 
+    req.user = decoded   //req : {user : {} }
+
     next();
+   } catch (error) {
+    next(error);
+    
+   }
 
 };
 }
